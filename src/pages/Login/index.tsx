@@ -84,6 +84,7 @@ const Login = () => {
         <PasswordWrapper>
           <PasswordLabel>비밀번호</PasswordLabel>
           <PasswordInput
+              type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
