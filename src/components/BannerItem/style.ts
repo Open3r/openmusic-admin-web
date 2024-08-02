@@ -6,6 +6,8 @@ export const Container = styled.div`
     flex-direction: column;
     border-radius: 0.25rem;
     overflow: hidden;
+    width: 840px;
+    height: 120px;
 `
 
 export const DeleteButton = styled.button`
@@ -24,6 +26,6 @@ export const DeleteButton = styled.button`
 `
 
 export const BannerImage = styled.img`
-    width: 840px;
-    height: 120px;
+    width: 100%;
+    height: 100%;
 `

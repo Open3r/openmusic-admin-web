@@ -48,6 +48,8 @@ export const BannerWrapper = styled.div`
     gap: 1rem;
     width: 100%;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
     @media (max-width: 840px) {
         flex-direction: column;
