@@ -7,7 +7,7 @@ export const Container = styled.div`
     border-radius: 0.25rem;
     overflow: hidden;
     width: 840px;
-    height: 120px;
+    height: 168px;
 `
 
 export const DeleteButton = styled.button`
@@ -19,6 +19,7 @@ export const DeleteButton = styled.button`
     border: none;
     cursor: pointer;
     transition: background-color 0.3s;
+    height: 3rem;
 
     &:hover {
         background-color: #c82333;
@@ -26,6 +27,6 @@ export const DeleteButton = styled.button`
 `
 
 export const BannerImage = styled.img`
-    width: 100%;
-    height: 100%;
+    width: 840px;
+    height: 120px;
 `
