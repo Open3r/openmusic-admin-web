@@ -1,4 +1,4 @@
-import { ISong } from "./Song";
+import {ISong} from "./Song";
 
 export interface IPlaylist {
     id: number;

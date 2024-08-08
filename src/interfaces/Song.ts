@@ -1,6 +1,27 @@
-import { IUser } from "./User";
+import {IUser} from "./User";
 
-export type Genre = "POP" | "HIPHOP" | "RNB" | "INDIE" | "ELECTRONIC" | "ROCK" | "METAL" | "CLASSIC" | "JAZZ" | "BLUES" | "COUNTRY" | "FOLK" | "PUNK" | "REGGAE" | "DANCE" | "DISCO" | "LATIN" | "KPOP" | "ANIME" | "OST" | "ETC";
+export type Genre =
+    "POP"
+    | "HIPHOP"
+    | "RNB"
+    | "INDIE"
+    | "ELECTRONIC"
+    | "ROCK"
+    | "METAL"
+    | "CLASSIC"
+    | "JAZZ"
+    | "BLUES"
+    | "COUNTRY"
+    | "FOLK"
+    | "PUNK"
+    | "REGGAE"
+    | "DANCE"
+    | "DISCO"
+    | "LATIN"
+    | "KPOP"
+    | "ANIME"
+    | "OST"
+    | "ETC";
 
 export interface ISong {
     id: number;

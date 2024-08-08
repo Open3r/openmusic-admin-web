@@ -1,9 +1,8 @@
 import styled from "@emotion/styled";
-import {Link} from "react-router-dom";
 
 export const Container = styled.div`
-    width: 16rem;
-    height: 18rem;
+    width: 12rem;
+    height: 12rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,9 +16,9 @@ export const Container = styled.div`
     position: relative;
 `
 
-export const AlbumImage = styled.img`
-    width: 16rem;
-    height: 16rem;
+export const SongImage = styled.img`
+    width: 12rem;
+    height: 12rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     position: absolute;
@@ -29,7 +28,7 @@ export const AlbumImage = styled.img`
     object-position: center;
 `
 
-export const AlbumTitle = styled(Link)`
+export const SongTitle = styled.p`
     border-top: 1px solid black;
     font-size: 1rem;
     font-weight: bold;
@@ -53,29 +52,9 @@ export const AlbumTitle = styled(Link)`
     position: absolute;
     bottom: 0;
     left: 0;
-    text-decoration: none;
     color: black;
     
     &:hover {
         background-color: #f1f3f5;
-    }
-`
-
-export const AlbumDeleteButton = styled.button`
-    padding: 0.5rem;
-    background-color: #dc3545;
-    color: white;
-    font-size: 1rem;
-    font-weight: 700;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    height: 3rem;
-    position: absolute;
-    top: 0;
-    right: 0;
-
-    &:hover {
-        background-color: #c82333;
     }
 `

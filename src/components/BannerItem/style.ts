@@ -7,7 +7,7 @@ export const Container = styled.div`
     border-radius: 0.25rem;
     overflow: hidden;
     width: 840px;
-    height: 168px;
+    //height: 168px;
 `
 
 export const DeleteButton = styled.button`
@@ -29,4 +29,25 @@ export const DeleteButton = styled.button`
 export const BannerImage = styled.img`
     width: 840px;
     height: 120px;
+`
+
+export const BannerURL = styled.a`
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: #f1f3f5;
+    }
 `

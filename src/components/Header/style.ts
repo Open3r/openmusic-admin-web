@@ -1,5 +1,6 @@
 import styled from "@emotion/styled";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
+import {Dropdown} from "antd";
 
 export const Container = styled.div`
     display: flex;
@@ -51,4 +52,19 @@ export const NavItem = styled(Link)`
     &:hover {
         text-decoration: underline;
     }
+`;
+
+export const ReportNavText = styled.span`
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    margin-left: 0.5rem;
+`
+
+export const ReportDropdown = styled(Dropdown)`
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
 `

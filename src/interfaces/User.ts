@@ -1,4 +1,4 @@
-import { Genre } from "./Song";
+import {Genre} from "./Song";
 
 export interface IUser {
     id: number;

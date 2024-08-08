@@ -1,11 +1,11 @@
-import { Container, GoToBannerListButton } from "./style";
+import {Container, HomeText} from "./style";
 
 const Home = () => {
-  return (
-    <Container>
-      <GoToBannerListButton to="/banners">배너 목록</GoToBannerListButton>
-    </Container>
-  );
+    return (
+        <Container>
+            <HomeText>OpenMusic Admin</HomeText>
+        </Container>
+    );
 };
 
 export default Home;

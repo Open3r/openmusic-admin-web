@@ -1,11 +1,11 @@
-import { IPlaylist } from "../../interfaces/Playlist";
+import {IPlaylist} from "../../interfaces/Playlist";
 
 interface PlaylistItemProps {
-  playlist: IPlaylist;
+    playlist: IPlaylist;
 }
 
-const PlaylistItem = ({ playlist }: PlaylistItemProps) => {
-  return <div>{playlist.title}</div>;
+const PlaylistItem = ({playlist}: PlaylistItemProps) => {
+    return <div>{playlist.title}</div>;
 };
 
 export default PlaylistItem;

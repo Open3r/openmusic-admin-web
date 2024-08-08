@@ -1,17 +1,17 @@
-import { IAlbum } from "../../interfaces/Album";
-import { Container } from "./style";
+import {IAlbum} from "../../interfaces/Album";
+import {AlbumImage, AlbumTitle, Container} from "./style";
 
 interface AlbumItemProps {
-  album: IAlbum;
+    album: IAlbum;
 }
 
-const AlbumItem = ({ album }: AlbumItemProps) => {
-  return (
-    <Container>
-      <img src={album.coverUrl} alt={album.title} />
-      <p>{album.title}</p>
-    </Container>
-  );
+const AlbumItem = ({album}: AlbumItemProps) => {
+    return (
+        <Container>
+            <AlbumImage src={album.coverUrl} alt={album.title}/>
+            <AlbumTitle to={`https://openmusic.kr/album/${album.id}`}>{album.title}</AlbumTitle>
+        </Container>
+    );
 };
 
 export default AlbumItem;
